@@ -1,0 +1,354 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/*----------------------------------------------------------------
+- Font Family -*/
+
+p, 
+h1, 
+h2, 
+h3, 
+h4,
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------------------------------------------
+    Branding Colour
+----------------------------------------------------------------*/
+
+h3,
+hr {
+    letter-spacing: .2em;
+    color: #0077be;
+}
+
+hr {
+    border: 1px solid  #0077be;
+}
+
+
+ ul li, 
+ .formbuilder-form label, 
+ .contact_detail, 
+ .contact_detail a, 
+ .contact_detail a:hover, 
+ .contact_detail a:focus{
+    color: #ffffff;
+}
+
+
+		.formbuilder-form input,
+		.formbuilder-form textarea,
+		.formbuilder-form select,
+		.formbuilder-form select option {
+			background: rgba(245, 245, 245, 0.61);
+			border: none;
+
+		}
+body, h1, h2, h4, h5, h6 {
+    color:#0077be;
+}
+
+#contact h3,
+#contact p,
+#services p, 
+#banner h1, 
+#banner p, 
+header a, 
+header span, 
+#header2a a:hover, 
+#header2a:before, 
+#header2b a,
+#header2b a:hover {
+    color: #fff;
+}
+
+#services h3 {
+    font-weight: 600;
+    color: #10c6f9;
+}
+
+.formbuilder-form label {
+    font-weight:400;
+}
+
+.formbuilder-form label, 
+h2, 
+h3, 
+.btn, 
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    text-transform: uppercase;
+}
+
+#header2b a, 
+.btn, .btn:hover, 
+.formbuilder-form input#submit-form,
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover {
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------
+- Form -*/
+
+.form, #quote_form_form, 
+#extraFormsContainer .modal-dialog {
+    border-radius: 5px;
+    box-shadow: 0 10px 15px 2px rgba(0,0,0,.2);
+    background-color: rgba(175, 203, 224, 0.79);
+}
+
+/*----------------------------------------------------------------
+- Buttons -*/
+
+.btn{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.formbuilder-form input#submit-form, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form  {
+    background-color: rgba(20, 104, 168, 1);
+    color: #fff;}
+.formbuilder-form input#submit-form:hover, 
+#extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover  {
+    background-color: #fff;
+    color: rgba(20, 104, 168, 1);
+}
+
+/*----------------------------------------------------------------
+    Custom Styles
+----------------------------------------------------------------*/
+
+#header2a:before,
+#contact2f, 
+#contact2e, 
+#contact2d, 
+#contact2c, 
+#contact1b {
+    display:none;
+}
+
+/*----------------------------------------------------------------
+- Header -*/
+#header2b a {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#header2a {
+    font-weight:400;
+    font-size: 40px;
+}
+
+
+/*----------------------------------------------------------------
+- Banner -*/
+
+#banner{
+    padding: 88px 0 104px;
+}
+
+#banner, 
+#banner h1 {
+    margin:0;
+    text-align: center;
+}
+
+#banner h1 {
+    letter-spacing: .2em;
+}
+
+#banner p {
+    font-weight: 400;
+}
+
+.banner_cover {
+    opacity: 0.1;
+    background-color:#000;
+}
+#header {
+   padding: 0px 0 50px;
+}
+
+/*----------------------------------------------------------------
+- Services -*/
+
+#services{
+    border-top: 5px solid #0078be;
+    border-bottom: 5px solid #0078be;
+}
+
+#service1,
+#service2,
+#service3,
+#service4{
+    transition: 0.2s 0.2s ease-out;
+    padding: 25px 10px 25px 10px;}
+
+#service1:hover,
+#service2:hover,
+#service3:hover,
+#service4:hover{
+    border: 1px solid #ffaf47;
+    background: rgba(255, 226, 189, 0.2);
+}
+
+/*----------------------------------------------------------------
+- Content -*/
+
+#content .img-responsive {
+    transition: 0.2s 0.2s ease-out;
+}
+
+#content .img-responsive:hover {
+    transform: scale(1.05);
+}
+
+#content1b, 
+#content2a, 
+#content3a {
+    padding-top:10px;
+}
+
+
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+
+footer *, footer a , footer {
+    color: #fff;
+}
+
+footer {
+    background-color:#555;
+    padding: 25px 0 25px;
+}
+
+/*----------------------------------------------------------------
+    Media Queries
+----------------------------------------------------------------*/
+@media only screen and (min-width: 767px){
+    #contact {
+        padding: 4% 10px 16%;
+    }
+    #contact1 {
+        width: 40%;
+    }
+
+    #content2a, 
+    #content4a, 
+    #content6a {
+        text-align: right;
+    }
+
+    #header {
+        background-position: center top;
+        padding: 0px 0 50px;
+    }
+
+    #header2b {
+        margin-top: -12px;
+    }
+
+    #header2 {
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    #content1a, 
+    #content2b, 
+    #content3a,
+    #content4b,
+    #content5a,
+    #content6b {
+        width: 60%;
+    }
+
+    #content1b, 
+    #content2a, 
+    #content3b,
+    #content4a,
+    #content5b,
+    #content6a {
+        width: 45%;
+    }
+
+    #content img {
+        width:100%;
+    }
+}
+@media only screen and (max-width: 991px){
+    #header2 {
+        padding-bottom: 20px;
+    }
+    #header2b a {
+        font-size:22px;
+    }
+    #header2a:before {
+        font-size: 30px;
+    }
+    #header2a {
+        line-height:35px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 767px) {
+    #service3 {
+        clear:left;
+    }
+    #header2 {
+        padding-top:3px;
+    }
+    #banner {
+        padding:0px;
+    }
+    #banner, 
+    #banner h1, 
+    #contact h2 {
+        text-align:center;
+    }
+
+    #banner h1 {
+        font-size: 38px;
+    }
+    
+    .btn {
+        white-space: normal;
+    }
+
+    .content_block {
+        padding-bottom:20px;
+    }
+
+    #service1:hover,
+    #service2:hover,
+    #service3:hover,
+    #service4:hover {
+        transform: scale(1.0);
+    }
+}
+/*- Animation & Extras-*/
+
+#banner1 {
+    animation:move 2s ease;
+    width: 100%;
+}
+
+@-webkit-keyframes move {
+    from {transform: scale(0.8);opacity:0;}
+    to {transform: scale(1.0);opacity:1;}
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn,
+.formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover,
+#service1:hover,#service2:hover,#service3:hover,#service4:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in;
+}
